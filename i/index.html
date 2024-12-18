@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>hello-bar demo</title>
+    <link href="https://files.inkliksites.com/file/inkliksharexfiles/2024/12/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="barr"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lorem quam. Nunc at risus auctor
+        felis semper
+        semper. Proin nec consectetur dolor, eu congue tellus. Nulla ac libero viverra, aliquam mi eget, auctor diam.
+        Vestibulum eget leo consequat, tempus eros ac, bibendum ligula. Etiam non lobortis augue, eget eleifend mi.
+        Etiam felis sem, elementum sit amet lacinia ac, dignissim at eros. Mauris tincidunt, arcu ut vulputate maximus,
+        tellus leo rhoncus ante, vitae viverra est lectus a erat. Fusce semper vehicula laoreet.</p>
+        <script type="module" src="https://files.inkliksites.com/file/inkliksharexfiles/2024/12/index.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const helloBar = new HelloBar({
+                    text: `Buy my new book now! <a class="cta wiggle" href="#">Get $10 off!</a>`,
+                    background: "#4CAF50",
+                    textColor: "#FFFFFF",
+                    fixed: true,
+                    position: "top",
+                    hideClose: false,
+                    size:"large",
+                });
+            });
+        </script>
+</body>
+</html>
